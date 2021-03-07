@@ -1,0 +1,145 @@
+body{
+    background-color: darkslategrey;
+}
+
+.box{
+    /* background-image: url('../src/gambar3.jpg') ; */
+    background-color: rgb(45, 165, 173);
+    padding: 10px;
+    border-radius: 100px 100px 100px 100px;
+    /* box-shadow: 20px 20px 40px 10px rgb(223, 183, 109); */
+   }
+
+.boxorder{
+    background-color: rgba(204, 214, 109, 0.171);
+    /* box-shadow: 20px 20px 40px 10px rgb(189, 170, 221); */
+    margin: 20px;
+    padding: 20px;
+    border-radius: 0px 100px 100px 0px;
+    
+}
+#tandatanya{
+    width: 100px;
+    position: relative;
+}
+
+#judul{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*jenis fontnya*/
+    font-size: 50px;
+    font-style: oblique;/*gaya font*/
+    padding: 0%;
+    text-align: center;
+    
+}
+.option{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+#row1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+#row2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+
+#row3{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#formorder{
+    color: white;
+}
+
+#cekstatus{
+    text-align: center;
+    margin-top: 75px;
+    width: 350px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+
+
+
+
+
+.menu{
+    margin-top: 10px;
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      li {
+        float: left;
+        border-right:1px solid #bbb;
+      }
+      
+      li:last-child {
+        border-right: none;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover:not(.active) {
+        background-color: #111;
+      }
+      
+
+
+}
+
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+
+.gambar1 {
+    float: left;
+    margin-left: 20px;
+    width : 50%;
+    
+}
+
